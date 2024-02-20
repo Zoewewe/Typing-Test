@@ -1,0 +1,40 @@
+#typing-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#typing-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#typing-input {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.sentence-char.typed {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.restart-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+#restart-button {
+    display: none;
+}

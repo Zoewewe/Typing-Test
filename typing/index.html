@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div id="typing-container">
+                    <div id="typing-text"></div>
+                    <input type="text" id="typing-input" class="form-control" placeholder="Let's test your speed..."
+                        autocomplete="off">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Speed</th>
+                            <th>Accuracy</th>
+                        </tr>
+                    </thead>
+                    <tbody id="results"></tbody>
+                </table>
+            </div>
+        </div>
+        <div class="restart-button-container">
+            <button id="restart-button" class="btn btn-primary">Restart Test</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
